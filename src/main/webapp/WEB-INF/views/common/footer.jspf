@@ -1,0 +1,15 @@
+   
+   </div>
+   <footer class="footer">
+      <p>footer content</p>
+   </footer>
+
+    <script>
+        
+        var p=window.location.pathname;
+           $('.nav > li > a[href="'+p+'"]').parent().addClass('active');
+	</script>
+
+</body>
+
+</html>
